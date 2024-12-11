@@ -1,0 +1,8 @@
+model_name: Model_GIN
+file_name: Model_GIN
+num_layers: 4
+rep_dim: 64
+dense_dim: 64
+dropout: 0.5
+ptens_conv: False
+readout: global_add_pool

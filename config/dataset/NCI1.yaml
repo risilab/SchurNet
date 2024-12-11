@@ -1,0 +1,10 @@
+ds_name: NCI1
+
+eval_metric: Binary
+loss: BCEWithLogits
+out_dim: 1
+num_classes: 2
+
+fold_idx: 9
+num_folds: 10
+cross_validation: false

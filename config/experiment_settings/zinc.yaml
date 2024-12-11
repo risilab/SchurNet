@@ -1,0 +1,22 @@
+manage_gpu_memory: true
+ptens_buffer: 2000  #2000 
+
+ptens: '5.15'
+cnine: '5.15'
+
+torch_profile: false
+nsight_profile: false
+visualize_architecture: false
+
+need_resume: true
+
+fixed_seed: false
+log_train_score: false
+log_train_loss_batch: false
+debug: false
+cross_validation: false
+wandb: true
+wandb_project: 'Autobahn_Ptens_qingqi'
+num_epochs: 500
+
+postfix: 'cycle_size_{5,6}_num_channels_8'

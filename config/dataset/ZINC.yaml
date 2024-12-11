@@ -1,0 +1,8 @@
+ds_name: ZINC
+
+eval_metric: MAE
+loss: MAE
+out_dim: 1
+
+fold_idx: 0
+num_folds: 1

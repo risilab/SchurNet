@@ -1,0 +1,8 @@
+ds_name: 'ogbg-molhiv'
+
+eval_metric: ROC-AUC
+loss: BCEWithLogits
+out_dim: 1
+
+fold_idx: 0
+num_folds: 1

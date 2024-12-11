@@ -1,0 +1,15 @@
+model_name: GIN_cycle_autobahn
+file_name: GIN_cycle_autobahn
+num_layers: 4
+hidden_dim: 128
+dense_dim: 128
+dropout_rate: 0
+edge_mult: 1
+autobahn_channels: 256
+out_dim: 1
+postfix: cycle_min_overlap_autobahn_full_3to18
+readout: global_add_pool
+included_cycles: [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+include_edge_features: True
+activation: ReLU
+skip_connection: True

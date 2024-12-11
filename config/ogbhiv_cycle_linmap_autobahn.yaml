@@ -1,0 +1,5 @@
+defaults:
+  - experiment_settings: gin_comparison.yaml
+  - dataset: OGB_HIV
+  - model: autobahn/cycle_linmap_autobahn_OGB_MOLHIV
+  - training_hyperparameters: train_OGB

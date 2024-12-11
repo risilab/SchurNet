@@ -1,0 +1,5 @@
+defaults:
+  - experiment_settings: gin_comparison.yaml
+  - dataset: ZINC
+  - model: autobahn/cycle_lvl_autobahn_ZINC
+  - training_hyperparameters: train_ZINC

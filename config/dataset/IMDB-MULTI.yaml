@@ -1,0 +1,11 @@
+ds_name: IMDB-MULTI
+
+eval_metric: Multi_class
+loss: CrossEntropy
+out_dim: 3
+num_classes: 3
+
+fold_idx: 0
+num_folds: 10
+cross_validation: true
+

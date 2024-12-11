@@ -1,0 +1,11 @@
+model_name: ablation_Model_Aut_on_branch
+file_name: ablation_Model_Aut_on_branch
+num_layers: 4
+rep_dim: 32 #128
+dense_dim: 32 #128
+dropout: 0.0
+num_channels: 4
+cycle_sizes: [5, 6]
+ptens_conv: False
+use_branched_5_cycles: True
+readout: global_add_pool

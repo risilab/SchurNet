@@ -1,0 +1,21 @@
+manage_gpu_memory: false
+# ptens_buffer: 2000
+
+ptens: '3.4'
+cnine: '3.2'
+
+torch_profile: false
+nsight_profile: false
+visualize_architecture: false
+
+need_resume: true
+
+fixed_seed: false
+log_train_score: false
+debug: false
+cross_validation: true
+wandb: true
+num_epochs: 1000
+
+
+wandb_project: 'SchurNet'

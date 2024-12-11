@@ -1,0 +1,8 @@
+ds_name: 'ogbg-moltox21'
+
+eval_metric: ROC-AUC
+loss: BCEWithLogits
+out_dim: 12
+
+fold_idx: 0
+num_folds: 1

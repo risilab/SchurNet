@@ -1,0 +1,8 @@
+ds_name: MUTAG
+
+eval_metric: Binary
+loss: BCEWithLogits
+out_dim: 1
+
+fold_idx: 0
+num_folds: 10

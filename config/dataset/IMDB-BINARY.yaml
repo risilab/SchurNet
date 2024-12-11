@@ -1,0 +1,11 @@
+ds_name: IMDB-BINARY
+
+eval_metric: Binary
+loss: BCEWithLogits
+out_dim: 1
+num_classes: 2
+
+fold_idx: 0
+num_folds: 10
+cross_validation: true
+

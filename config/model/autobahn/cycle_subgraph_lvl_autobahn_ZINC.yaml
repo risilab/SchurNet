@@ -1,0 +1,21 @@
+model_name: GIN_cycle_autobahn
+file_name: GIN_cycle_autobahn
+num_layers: 4
+hidden_dim: 128
+dense_dim: 128
+dropout_rate: 0
+edge_mult: 1
+autobahn_channels: 256
+cycle_linmap_autobahn: False
+lvl_autobahn: True
+out_dim: 1
+postfix: min_overlap_lvl_autobahn_full_3to14_subgraph_no_repeated
+# postfix: min_overlap_lvl_autobahn_full_3to18_subgraph
+readout: global_add_pool
+included_cycles: [3,4,5,6,7,8,9,10,11,12,13,14]
+# included_cycles: [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+# subgraphs: ["substituent 1", "substituent 2", "substituent 3", "napthalene"]
+subgraphs: ["napthalene", "cycle6_one_branch", "cycle6_two_barnch_00", "cycle6_two_branch_01", "cycle6_two_barnch_14", "cycle6_two_branch_13", "cycle6_three_branch012", "cycle6_three_branch013", "cycle6_three_branch135"]
+include_edge_features: True
+activation: ReLU
+skip_connection: True

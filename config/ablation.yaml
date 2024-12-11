@@ -1,0 +1,7 @@
+defaults:
+  - experiment_settings: zinc
+  - dataset: ZINC #NCI1 #IMDB-MULTI #IMDB-BINARY #NCI1 #PTC_MR #MUTAG #PROTEINS #MUTAG
+  - training_hyperparameters: train_ZINC #train_PROTEINS #train_MUTAG #train_PROTEINS
+  - model: ablation_Model_Aut_on_branch_small #Model_EdgeCycle_Aut_0th_batch_on_edge2cycle_small #Model_GIN #ablation_Model_EdgeCycle_0th 
+  - override hydra/job_logging: 'disabled'
+
